@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ad935a-03f0-45f5-b596-15ff971a81ad" name="Default Changelist" comment="" />
+    <list default="true" id="81ad935a-03f0-45f5-b596-15ff971a81ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structure/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structure/Tree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structure/Tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structure/Tree/HuffmanTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/META-INF/dataStructure.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/Structure/List/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructure/Structure/List/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/Structure/Tree/BinaryTreeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructure/Structure/Tree/BinaryTreeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structure/List/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structure/List/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structure/Queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structure/Queue/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structure/Tree/BinaryTreeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structure/Tree/BinaryTreeArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +29,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,19 +48,22 @@
   <component name="ProjectId" id="2MGzHFy9LKWJkOfsUVZHab9RJfE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/madong/dataStructure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Algorithm" />
@@ -50,9 +75,9 @@
       <recent name="E:\CODE\dataStructure\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeList">
-    <configuration name="BinaryTreeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structure.Tree.BinaryTreeArray" />
+  <component name="RunManager" selected="Application.HuffmanTree">
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structure.Tree.AVLTree" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structure.Tree.BinaryTreeList" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structure.Tree.BinarySearchTree" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChildSiblingTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structure.Tree.ChildSiblingTree" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structure.Heap" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Structure.Tree.HuffmanTree" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.binarySearch" />
+    <configuration name="reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.reverseList" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -103,23 +141,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.reverseList" />
-      <module name="dataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeList" />
-        <item itemvalue="Application.BinaryTreeArray" />
-        <item itemvalue="Application.ChildSiblingTree" />
-        <item itemvalue="Application.binarySearch" />
+        <item itemvalue="Application.HuffmanTree" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.reverseList" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -139,74 +171,30 @@
       <workItem from="1677904673387" duration="3464000" />
       <workItem from="1677985552732" duration="4150000" />
       <workItem from="1678166408766" duration="14658000" />
+      <workItem from="1680222164954" duration="1235000" />
+      <workItem from="1680401548366" duration="639000" />
+      <workItem from="1680484204638" duration="11093000" />
+      <workItem from="1680522587904" duration="24000" />
+      <workItem from="1680569374460" duration="340000" />
+      <workItem from="1680573107878" duration="19842000" />
+      <workItem from="1680741372469" duration="2048000" />
+      <workItem from="1680840196321" duration="9525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2472" y="178" key="#Project_Structure" timestamp="1677636188578">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="178" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677636188578" />
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1678239310174">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678239310174" />
-    <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1678168252287">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678168252287" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554449" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554449" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554449" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554449" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.1.bottom" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554402" />
-    <state width="1877" height="306" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.1.center" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554402" />
-    <state width="1877" height="306" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.1.left" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554402" />
-    <state width="1877" height="306" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state width="1877" height="306" key="GridCell.Tab.1.right" timestamp="1678248749689">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1678063554402" />
-    <state width="1877" height="306" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678248749689" />
-    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1678166415200">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1677985569034" />
-    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678166415200" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1678239472542">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1678239472542" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,16 +210,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Structure/Queue/QueueArray.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Structure/Queue/QueueArray.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Structure/Queue/QueueList.java</url>
           <line>22</line>
           <option name="timeStamp" value="9" />
@@ -242,19 +220,34 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithm/reverseList.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/Structure/Tree/AVLTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithm/reverseList.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/Structure/Tree/AVLTree.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Structure/Tree/ChildSiblingTree.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/Structure/Tree/AVLTree.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Structure/Heap.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Structure/Heap.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Structure/Tree/HuffmanTree.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

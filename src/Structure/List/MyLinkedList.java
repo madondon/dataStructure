@@ -52,6 +52,7 @@ public class MyLinkedList<T> {
         size++;
     }
 
+
     public void insertAtPos(T data, int pos) {
         if (pos < 0 || pos > size) {
             throw new IndexOutOfBoundsException("Index out of bound");

@@ -1,6 +1,6 @@
 package Structure.Queue;
 
-public class QueueArray<T> {
+public class  QueueArray<T> {
     private int front, rear, capacity;
     private T[] array;
 

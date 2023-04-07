@@ -1,10 +1,10 @@
 package Structure.Tree;
 
 public class BinaryTreeArray {
-    private int[] array;
+    private int[] tree;
 
     public BinaryTreeArray(int[] array) {
-        this.array = array;
+        this.tree = array;
     }
 
     public void preOrderTraversal() {
@@ -12,11 +12,11 @@ public class BinaryTreeArray {
     }
 
     private void preOrderTraversal(int index) {
-        if (index >= array.length || array[index] == 0) { // 如果节点不存在，则返回
+        if (index >= tree.length || tree[index] == 0) { // 如果节点不存在，则返回
             return;
         }
 
-        System.out.print(array[index] + " "); // 访问节点
+        System.out.print(tree[index] + " "); // 访问节点
         preOrderTraversal(2 * index); // 遍历左子树
         preOrderTraversal(2 * index + 1); // 遍历右子树
     }
@@ -26,12 +26,12 @@ public class BinaryTreeArray {
     }
 
     private void inOrderTraversal(int index) {
-        if (index >= array.length || array[index] == 0) { // 如果节点不存在，则返回
+        if (index >= tree.length || tree[index] == 0) { // 如果节点不存在，则返回
             return;
         }
 
         inOrderTraversal(2 * index); // 遍历左子树
-        System.out.print(array[index] + " "); // 访问节点
+        System.out.print(tree[index] + " "); // 访问节点
         inOrderTraversal(2 * index + 1); // 遍历右子树
     }
 
@@ -40,13 +40,13 @@ public class BinaryTreeArray {
     }
 
     private void postOrderTraversal(int index) {
-        if (index >= array.length || array[index] == 0) { // 如果节点不存在，则返回
+        if (index >= tree.length || tree[index] == 0) { // 如果节点不存在，则返回
             return;
         }
 
         postOrderTraversal(2 * index); // 遍历左子树
         postOrderTraversal(2 * index + 1); // 遍历右子树
-        System.out.print(array[index] + " "); // 访问节点
+        System.out.print(tree[index] + " "); // 访问节点
     }
 
     public static void main(String[] args) {
