@@ -52,7 +52,7 @@ public class Heap {
     }
 
     public void maxHeapify(int pos) {
-        if (isLeaf(pos)) {
+         if (isLeaf(pos)) {
             return;
         }
 
