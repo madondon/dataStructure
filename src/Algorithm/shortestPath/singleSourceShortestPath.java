@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.shortestPath;
 
 import java.util.*;
 public class singleSourceShortestPath {
