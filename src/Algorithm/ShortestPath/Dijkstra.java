@@ -1,4 +1,4 @@
-package Algorithm.shortestPath;
+package Algorithm.ShortestPath;
 
 import java.util.*;
 

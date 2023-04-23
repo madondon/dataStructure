@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ad935a-03f0-45f5-b596-15ff971a81ad" name="Default Changelist" comment="十种内部排序">
-      <change afterPath="$PROJECT_DIR$/src/Structure/HashTable.java" afterDir="false" />
+    <list default="true" id="81ad935a-03f0-45f5-b596-15ff971a81ad" name="Default Changelist" comment="哈希表">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoyerMoore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,23 +75,23 @@
       <recent name="List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTable">
-    <configuration name="BucketSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BucketSort" />
+  <component name="RunManager" selected="Application.BoyerMoore">
+    <configuration name="BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.StringMatching.BF" />
       <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.StringMatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Sort.InternalSort.BucketSort" />
+    <configuration name="BoyerMoore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.StringMatching.BoyerMoore" />
       <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.Sort.InternalSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Sort.InternalSort.RadixSort" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.StringMatching.KMP" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.Sort.InternalSort.*" />
+          <option name="PATTERN" value="Algorithm.StringMatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BucketSort" />
-      <item itemvalue="Application.BucketSort (1)" />
+      <item itemvalue="Application.BF" />
+      <item itemvalue="Application.BoyerMoore" />
       <item itemvalue="Application.HashTable" />
       <item itemvalue="Application.HashTable (1)" />
-      <item itemvalue="Application.RadixSort" />
+      <item itemvalue="Application.KMP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoyerMoore" />
+        <item itemvalue="Application.BF" />
+        <item itemvalue="Application.KMP" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.HashTable (1)" />
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.BucketSort" />
-        <item itemvalue="Application.BucketSort (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +182,7 @@
       <workItem from="1680840196321" duration="9907000" />
       <workItem from="1680922722253" duration="39620000" />
       <workItem from="1681348478311" duration="30192000" />
-      <workItem from="1681691768768" duration="45766000" />
+      <workItem from="1681691768768" duration="62673000" />
     </task>
     <task id="LOCAL-00001" summary="BST，avl树，堆，哈夫曼树">
       <created>1680872715731</created>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681900909800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="哈希表">
+      <created>1682156857984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682156857984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +249,8 @@
     <MESSAGE value="单源无权最短路径 Dijkstra Floyd" />
     <MESSAGE value="最短路径 Kruskal Prim" />
     <MESSAGE value="十种内部排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="十种内部排序" />
+    <MESSAGE value="哈希表" />
+    <option name="LAST_COMMIT_MESSAGE" value="哈希表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,6 +374,11 @@
           <url>file://$PROJECT_DIR$/src/Structure/HashTable.java</url>
           <line>59</line>
           <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BoyerMoore.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

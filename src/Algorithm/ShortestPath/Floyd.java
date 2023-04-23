@@ -1,4 +1,4 @@
-package Algorithm.shortestPath;
+package Algorithm.ShortestPath;
 
 public class Floyd {
     public static final int INF = Integer.MAX_VALUE;
